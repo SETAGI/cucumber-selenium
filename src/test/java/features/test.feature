@@ -6,7 +6,5 @@ Feature:  Comics category
     When  Clicks over The little tester comics button
     Then  Redirects to comics page
 
-  Scenario: Enter to the comics category from home page
-    Given User is in the home page imalittletester
-    When  Clicks over The little tester comics button
-    Then  Redirects to comics page
+#  Scenario: Scenario2
+#    Given User is in the home page imalittletester2

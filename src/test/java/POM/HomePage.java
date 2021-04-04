@@ -9,11 +9,11 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends BasePage{
 
     @FindBy(id = "menu-item-2008")
-    public WebElement titleComicsLocatorNotCached;
-
-    @FindBy(id = "menu-item-2008")
-    @CacheLookup
     public WebElement titleComicsLocator;
+
+//    @FindBy(id = "menu-item-2008")
+//    @CacheLookup
+//    public WebElement titleComicsLocator;
 
     //private By titleComicsLocator = By.id("menu-item-2008");
 

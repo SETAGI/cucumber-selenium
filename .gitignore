@@ -1,7 +1,9 @@
 # Intellij
+node_modules
 .idea/
 *.iml
 *.iws
+
 
 # Maven
 log/

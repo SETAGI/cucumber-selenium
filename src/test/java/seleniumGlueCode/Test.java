@@ -13,11 +13,14 @@ public class Test extends BaseTest {
         Assert.assertTrue(homePage.homePageIsDisplayed());
     }
 
+//    @Given("^User is in the home page imalittletester2$")
+//    public void user_is_in_the_home_page_imalittletester2() throws Throwable {
+//        Assert.assertTrue(false);
+//    }
+
     @When("^Clicks over The little tester comics button$")
     public void clicks_over_The_little_tester_comics_button() throws Throwable {
-        //homePage.clickOnTitleComics();
-        System.out.println("Element" + homePage.titleComicsLocator);
-        homePage.titleComicsLocator.click();
+        homePage.clickOnTitleComics();
     }
 
     @Then("^Redirects to comics page$")

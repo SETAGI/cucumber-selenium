@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class ComicsPage extends BasePage {
 
-    @FindBy(className = "page-title")
+    @FindBy(className = "page-title2")
     private WebElement pageTitleLocator;
 
     private String titleComicsPage = "Category: comics";
